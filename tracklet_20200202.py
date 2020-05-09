@@ -1,24 +1,14 @@
-import statistics
-
 class Tracklet:
-    def __init__(self, tracklet_id, max_length, bbox, frame_id):
+    def __init__(self, tracklet_id, max_length, bbox):
         self.tracklet_id = tracklet_id
         self.predicted_ids = {}
         self.max_length = max_length
         self.last_bbox = bbox
-        self.bboxes = [bbox]
-        self.x_values = [bbox[0]]
-        self.y_values = [bbox[1]]
-        self.w_values = [bbox[2] - bbox[0]]
-        self.h_values = [bbox[3] - bbox[1]]
         self.age = 0
         self.is_done_flag = False
         self.last_features = None
-        self.entrance = frame_id
-        self.exit = frame_id
-        self.frame_ids = [frame_id]
 
-    def update(self, new_id, frame_id, features=None, is_id_old=True):
+    def update(self, new_id, features=None, is_id_old=True):
         if self.predicted_ids and new_id not in self.predicted_ids:
                 self.is_done_flag = True
         
@@ -32,17 +22,9 @@ class Tracklet:
 
         self.last_features = features
 
-        self.exit = frame_id
-        self.frame_ids.append(frame_id)
-
     def update_bbox(self, new_bbox):
         # print(new_bbox)
         self.last_bbox = new_bbox
-
-        self.x_values.append(new_bbox[0])
-        self.y_values.append(new_bbox[1])
-        self.w_values.append(new_bbox[2] - new_bbox[0])
-        self.h_values.append(new_bbox[3] - new_bbox[1])
 
     def get_current_length(self):
         return max(self.predicted_ids.values())
@@ -56,17 +38,8 @@ class Tracklet:
     def get_id(self):
         return max(self.predicted_ids, key=self.predicted_ids.get)
 
-    def get_bbox(self):
-        result = [None] * 4
-        result[0] = int(statistics.median(self.x_values))
-        result[1] = int(statistics.median(self.y_values))
-        result[2] = int(statistics.median(self.w_values))
-        result[3] = int(statistics.median(self.h_values))
-
-        return result
-
 class TrackletManager():
-    def __init__(self, tracklet_length, tracker, file_path, cam_id=1):
+    def __init__(self, tracklet_length, tracker, file_path):
         self.tracklet_length = tracklet_length
         self.tracker = tracker
         self.tracklets = {}
@@ -74,7 +47,6 @@ class TrackletManager():
         self.total_purity_count = 0
         self.next_tracklet_id = 1
         self.g_count = 0
-        self.cam_id = cam_id
         self.file_path = file_path
         self.last_track_ids = list(map(lambda x: x.track_id, self.tracker.tracks))
         self.file_path_features = self.file_path.replace('.txt', '')
@@ -85,7 +57,7 @@ class TrackletManager():
         # with open(self.file_path, "w") as f:
         #     f.write("gtID\tPurity\n")
 
-    def update(self, gt_detections, frame_id):
+    def update(self, gt_detections):
         # print("-----------")
         # TODO: increase age for all tracklets
         # print(" ".join(map(lambda x: str(x.track_id), self.tracker.tracks)))
@@ -93,11 +65,9 @@ class TrackletManager():
         tracklet_ids = list(self.tracklets.keys())
         bbbb = []
 
-        popped_tracklets = []
-
         for gtID in gt_detections:
             if not gtID in self.tracklets:
-                self.tracklets[gtID] = Tracklet(self.next_tracklet_id, self.tracklet_length, list(gt_detections[gtID]["bbox"]), frame_id)
+                self.tracklets[gtID] = Tracklet(self.next_tracklet_id, self.tracklet_length, list(gt_detections[gtID]["bbox"]))
                 self.next_tracklet_id += 1
                 # tracklet_ids.append(gtID)
             else:
@@ -112,15 +82,15 @@ class TrackletManager():
                     #     print(gtID, track.track_id, self.tracklets[gtID].predicted_ids)
                     #     print(self.tracklets[gtID].get_purity(), self.tracklets[gtID].get_current_length())
                     if track.track_id in self.last_track_ids:
-                        self.tracklets[gtID].update(track.track_id, frame_id, features=track.features)
+                        self.tracklets[gtID].update(track.track_id, features=track.features)
                     else:
-                        self.tracklets[gtID].update(track.track_id, frame_id, features=track.features, is_id_old=False)
+                        self.tracklets[gtID].update(track.track_id, features=track.features, is_id_old=False)
 
                     if gtID in tracklet_ids:
                         tracklet_ids.remove(gtID)
 
         for i in tracklet_ids:
-            self.tracklets[i].update(-1,  frame_id)
+            self.tracklets[i].update(-1)
             self.tracklets[i].last_bbox = None
 
         
@@ -135,23 +105,17 @@ class TrackletManager():
                 
                 log_text = f"{self.tracklets[tkey].tracklet_id}\t{self.tracklets[tkey].get_purity()}\t{self.tracklets[tkey].get_current_length()}\n"
                 
-                features_log_text = None
+                features_log_text = '[]\n'
                 if self.tracklets[tkey].last_features is not None:
-                    features_log_text = '{}\t{}\t{}\t{}\t{}\t{}\t{}\n'.format(
-                        self.tracklets[tkey].get_id(),
-                        self.tracklets[tkey].get_purity(),
-                        self.tracklets[tkey].get_current_length(),
-                        self.tracklets[tkey].entrance,
-                        self.tracklets[tkey].exit,
-                        self.tracklets[tkey].get_bbox(),
-                        self.tracklets[tkey].last_features.tolist()
-                    )
-                    # print(features_log_text)
+                    printed_bbox = self.tracklets[tkey].last_bbox
+                    printed_bbox[2] -= printed_bbox[0]
+                    printed_bbox[3] -= printed_bbox[1]
+                    features_log_text = f'{self.tracklets[tkey].get_id()}, {printed_bbox}, {self.tracklets[tkey].last_features.tolist()}]\n'
+                    print(features_log_text)
 
                 with open(self.file_path, "a") as f, open(self.file_path_features, "a") as ff:
                     f.write(log_text)
-                    if features_log_text is not None:
-                        ff.write(features_log_text)
+                    ff.write(features_log_text)
                 
                 # if self.tracklets[tkey].get_purity() > 0.999 and self.tracklets[tkey].get_current_length() != self.tracklets[tkey].max_length:
                 # if self.tracklets[tkey].get_purity() < 1.0:
@@ -160,11 +124,11 @@ class TrackletManager():
                 keys_to_pop.add(tkey)
 
         for p in keys_to_pop:
-            popped_tracklets.append(self.tracklets.pop(p))
+            self.tracklets.pop(p)
         
         self.last_track_ids = list(map(lambda x: x.track_id, self.tracker.tracks))
 
-        return popped_tracklets
+        return r
 
     def is_list_equal(self, b1, b2):
         r = True

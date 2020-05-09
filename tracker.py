@@ -49,25 +49,26 @@ class Tracker:
 
                 cost_matrix.append(cosine_distances)
 
-            cost_matrix = np.array(cost_matrix, dtype=np.float32)
+            if len(cost_matrix) > 0:
+                cost_matrix = np.array(cost_matrix, dtype=np.float32)
 
-            indices = linear_sum_assignment(cost_matrix)
-            # rows: detections
-            # columns: tracks
-            for ij in range(len(indices[0])):
-                detection_index = indices[0][ij]
-                track_index = indices[1][ij]
-                # print(self.compute_iou(   features_and_detections[index_matches[detection_index]]["bbox"], 
-                #                             self.tracks[track_index].last_bbox))
-                if (not self.tracks[track_index].is_dirty) \
-                    and cost_matrix[detection_index][track_index] < self.max_cosine_distance \
-                    and self.compute_iou(   features_and_detections[index_matches[detection_index]]["bbox"], 
-                                            self.tracks[track_index].last_bbox)>self.min_iou:
-                    self.tracks[track_index].update(
-                        features_and_detections[index_matches[detection_index]]["features"],
-                        features_and_detections[index_matches[detection_index]]["bbox"])
+                indices = linear_sum_assignment(cost_matrix)
+                # rows: detections
+                # columns: tracks
+                for ij in range(len(indices[0])):
+                    detection_index = indices[0][ij]
+                    track_index = indices[1][ij]
+                    # print(self.compute_iou(   features_and_detections[index_matches[detection_index]]["bbox"], 
+                    #                             self.tracks[track_index].last_bbox))
+                    if (not self.tracks[track_index].is_dirty) \
+                        and cost_matrix[detection_index][track_index] < self.max_cosine_distance \
+                        and self.compute_iou(   features_and_detections[index_matches[detection_index]]["bbox"], 
+                                                self.tracks[track_index].last_bbox)>self.min_iou:
+                        self.tracks[track_index].update(
+                            features_and_detections[index_matches[detection_index]]["features"],
+                            features_and_detections[index_matches[detection_index]]["bbox"])
 
-                    index_matches[detection_index] = -1
+                        index_matches[detection_index] = -1
 
             for ii, vv in enumerate(index_matches):
                 if vv != -1:

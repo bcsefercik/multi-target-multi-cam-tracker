@@ -53,16 +53,16 @@ def main(opt, min_iou=MIN_IOU, max_cosine_distance=MAX_COSINE_DISTANCE, tracklet
                 print("INFO: No features for frame", i)
                 # raise FileNotFoundError
 
+            frame = cv2.imread(os.path.join(opt.framefolder, "{}.jpg".format(i))) if opt.show or opt.write_video else None
+
             for f in features:
-                if int(f["ID"]) > 0:
-                    features_and_detections[f["ID"]] = {
-                        "features": np.array(f["features"], dtype=np.float32)
-                    }
+                features_and_detections[f["ID"]] = {
+                    "features": np.array(f["features"], dtype=np.float32)
+                }
 
             for d in detections:
-                if int(d["ID"]) > 0:
-                    features_and_detections[int(d["ID"])]["bbox"] = np.array([d["xmin"], d["ymin"], d["xmax"], d["ymax"]], 
-                                                                        dtype=np.int32)
+                features_and_detections[int(d["ID"])]["bbox"] = np.array([d["xmin"], d["ymin"], d["xmax"], d["ymax"]], 
+                                                                    dtype=np.int32)
             tracker.update(features_and_detections)
             tracklet_manager.update(features_and_detections, i)
 
@@ -99,7 +99,7 @@ def main(opt, min_iou=MIN_IOU, max_cosine_distance=MAX_COSINE_DISTANCE, tracklet
             # pass
             print("GG", e)
         
-        i += 1
+        i += 2
         # Press Q to stop!
         if opt.show and cv2.waitKey(1) & 0xFF == ord('q'):
             break

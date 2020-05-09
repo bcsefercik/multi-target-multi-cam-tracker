@@ -1,3 +1,4 @@
 *.mp4
 dukemtmc/
 dukemtmc/*
+*.pickle

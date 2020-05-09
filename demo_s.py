@@ -6,25 +6,26 @@ import argparse
 import math
 
 import numpy as np
-import cv2
+# import cv2
 from timeit import time
 
 from tracker import Tracker
 from tracklet import TrackletManager
+from nms import non_max_suppression
 
 TRACKLET_LENGTH = 10
 MIN_IOU = 0.7
 MAX_COSINE_DISTANCE = 0.3
 
 def main(opt, min_iou=MIN_IOU, max_cosine_distance=MAX_COSINE_DISTANCE, tracklet_length=TRACKLET_LENGTH):
-    if opt.write_video:
-    # Define the codec and create VideoWriter object
-        w = int(1920)
-        h = int(1080)
-        fourcc = cv2.VideoWriter_fourcc(*'mp4v')
-        out = cv2.VideoWriter("output-tl{}_iou{}_d{}.mp4".format(tracklet_length, min_iou, max_cosine_distance), fourcc, 30, (w, h))
-        # list_file = open('detection.txt', 'w')
-        frame_index = -1 
+    # if opt.write_video:
+    # # Define the codec and create VideoWriter object
+    #     w = int(1920)
+    #     h = int(1080)
+    #     fourcc = cv2.VideoWriter_fourcc(*'mp4v')
+    #     out = cv2.VideoWriter("output-tl{}_iou{}_d{}.mp4".format(tracklet_length, min_iou, max_cosine_distance), fourcc, 30, (w, h))
+    #     # list_file = open('detection.txt', 'w')
+    #     frame_index = -1 
 
     tracker = Tracker(min_iou=min_iou, max_cosine_distance=max_cosine_distance)
     tracklet_manager = TrackletManager(tracklet_length, tracker, os.path.join(opt.outputfolder, "tl{}_iou{}_d{}.txt".format(tracklet_length, min_iou, max_cosine_distance)), cam_id=opt.camid)
@@ -36,15 +37,16 @@ def main(opt, min_iou=MIN_IOU, max_cosine_distance=MAX_COSINE_DISTANCE, tracklet
             t1 = time.time()
 
             features_and_detections = {}
-            features = {}
-            detections = {}
+            features = []
+           
+            # detections = {}
 
-            try:
-                with open(os.path.join(opt.detectionfolder, "{}.json".format(i))) as f:
-                    detections = json.load(f)
-            except FileNotFoundError:
-                print("INFO: No detections for frame", i)
-                # raise FileNotFoundError
+            # try:
+            #     with open(os.path.join(opt.detectionfolder, "{}.json".format(i))) as f:
+            #         detections = json.load(f)
+            # except FileNotFoundError:
+            #     print("INFO: No detections for frame", i)
+            #     # raise FileNotFoundError
             
             try:
                 with open(os.path.join(opt.featurefolder, "{}.json".format(i))) as f:
@@ -53,42 +55,45 @@ def main(opt, min_iou=MIN_IOU, max_cosine_distance=MAX_COSINE_DISTANCE, tracklet
                 print("INFO: No features for frame", i)
                 # raise FileNotFoundError
 
+            features = non_max_suppression(features, 0.5, confidence_threshold=0.18)
+
             for f in features:
                 if int(f["ID"]) > 0:
-                    features_and_detections[f["ID"]] = {
-                        "features": np.array(f["features"], dtype=np.float32)
+                    features_and_detections[int(f["ID"])] = {
+                        "features": np.array(f["features"], dtype=np.float32),
+                        "bbox": np.array([f["xmin"], f["ymin"], f["xmax"], f["ymax"]], dtype=np.int32)
                     }
 
-            for d in detections:
-                if int(d["ID"]) > 0:
-                    features_and_detections[int(d["ID"])]["bbox"] = np.array([d["xmin"], d["ymin"], d["xmax"], d["ymax"]], 
-                                                                        dtype=np.int32)
+            # for d in detections:
+            #     if int(d["ID"]) > 0:
+            #         features_and_detections[int(d["ID"])]["bbox"] = np.array([d["xmin"], d["ymin"], d["xmax"], d["ymax"]], 
+            #                                                             dtype=np.int32)
             tracker.update(features_and_detections)
             tracklet_manager.update(features_and_detections, i)
 
-            if opt.show or opt.write_video:
-                frame = cv2.imread(os.path.join(opt.framefolder, "{}.jpg".format(i)))
-                for track in tracker.tracks:
-                    bbox = track.last_bbox
-                    cv2.rectangle(frame, (int(bbox[0]), int(bbox[1])), (int(bbox[2]), int(bbox[3])),(255,255,255), 2)
-                    cv2.putText(frame, str(track.track_id),(int(bbox[0]), int(bbox[1])),0, 5e-3 * 200, (10,100,10),2)
+            # if opt.show or opt.write_video:
+            #     frame = cv2.imread(os.path.join(opt.framefolder, "{}.jpg".format(i)))
+            #     for track in tracker.tracks:
+            #         bbox = track.last_bbox
+            #         cv2.rectangle(frame, (int(bbox[0]), int(bbox[1])), (int(bbox[2]), int(bbox[3])),(255,255,255), 2)
+            #         cv2.putText(frame, str(track.track_id),(int(bbox[0]), int(bbox[1])),0, 5e-3 * 200, (10,100,10),2)
                 
-                for detkey in features_and_detections:
-                    bbox = features_and_detections[detkey]["bbox"]
-                    # cv2.rectangle(frame, (int(bbox[0]), int(bbox[1])), (int(bbox[2]), int(bbox[3])),(130,130,130), 2)
-                    cv2.putText(frame, str(detkey),(int(bbox[0])+30, int(bbox[1])),0, 5e-3 * 200, (160,10,10),2)
+            #     for detkey in features_and_detections:
+            #         bbox = features_and_detections[detkey]["bbox"]
+            #         # cv2.rectangle(frame, (int(bbox[0]), int(bbox[1])), (int(bbox[2]), int(bbox[3])),(130,130,130), 2)
+            #         cv2.putText(frame, str(detkey),(int(bbox[0])+30, int(bbox[1])),0, 5e-3 * 200, (160,10,10),2)
                 
                 # for tracklet_key in tracklet_manager.tracklets:
                 #     tracklet = tracklet_manager.tracklets[tracklet_key]
                 #     cv2.putText(frame, str(tracklet.tracklet_id),(int(bbox[0])+60, int(bbox[1])),0, 5e-3 * 200, (0,255,0),2)
 
-            if opt.show:
-                cv2.imshow('', frame)
+            # if opt.show:
+            #     cv2.imshow('', frame)
 
-            if opt.write_video:
-                # save a frame
-                out.write(frame)
-                frame_index = frame_index + 1
+            # if opt.write_video:
+            #     # save a frame
+            #     out.write(frame)
+            #     frame_index = frame_index + 1
 
             fps  = ( fps + (1./(time.time()-t1)) ) / 2
             if i % 500 == 0:
@@ -101,11 +106,11 @@ def main(opt, min_iou=MIN_IOU, max_cosine_distance=MAX_COSINE_DISTANCE, tracklet
         
         i += 1
         # Press Q to stop!
-        if opt.show and cv2.waitKey(1) & 0xFF == ord('q'):
-            break
+        # if opt.show and cv2.waitKey(1) & 0xFF == ord('q'):
+        #     break
 
-    if opt.write_video:
-        out.release()
+    # if opt.write_video:
+    #     out.release()
 
 if __name__ == '__main__':
     argument_parser = argparse.ArgumentParser()

@@ -3,7 +3,6 @@ import sys
 import time
 import json
 import argparse
-import math
 
 import numpy as np
 import cv2
@@ -27,7 +26,7 @@ def main(opt, min_iou=MIN_IOU, max_cosine_distance=MAX_COSINE_DISTANCE, tracklet
         frame_index = -1 
 
     tracker = Tracker(min_iou=min_iou, max_cosine_distance=max_cosine_distance)
-    tracklet_manager = TrackletManager(tracklet_length, tracker, os.path.join(opt.outputfolder, "tl{}_iou{}_d{}.txt".format(tracklet_length, min_iou, max_cosine_distance)), cam_id=opt.camid)
+    tracklet_manager = TrackletManager(tracklet_length, tracker, os.path.join(opt.outputfolder, "tl{}_iou{}_d{}.txt".format(tracklet_length, min_iou, max_cosine_distance)))
 
     i = opt.start
     fps = 0.0
@@ -53,18 +52,18 @@ def main(opt, min_iou=MIN_IOU, max_cosine_distance=MAX_COSINE_DISTANCE, tracklet
                 print("INFO: No features for frame", i)
                 # raise FileNotFoundError
 
+            frame = cv2.imread(os.path.join(opt.framefolder, "{}.jpg".format(i))) if opt.show or opt.write_video else None
+
             for f in features:
-                if int(f["ID"]) > 0:
-                    features_and_detections[f["ID"]] = {
-                        "features": np.array(f["features"], dtype=np.float32)
-                    }
+                features_and_detections[f["ID"]] = {
+                    "features": np.array(f["features"], dtype=np.float32)
+                }
 
             for d in detections:
-                if int(d["ID"]) > 0:
-                    features_and_detections[int(d["ID"])]["bbox"] = np.array([d["xmin"], d["ymin"], d["xmax"], d["ymax"]], 
-                                                                        dtype=np.int32)
+                features_and_detections[int(d["ID"])]["bbox"] = np.array([d["xmin"], d["ymin"], d["xmax"], d["ymax"]], 
+                                                                    dtype=np.int32)
             tracker.update(features_and_detections)
-            tracklet_manager.update(features_and_detections, i)
+            tracklet_manager.update(features_and_detections)
 
             if opt.show or opt.write_video:
                 frame = cv2.imread(os.path.join(opt.framefolder, "{}.jpg".format(i)))
@@ -99,7 +98,7 @@ def main(opt, min_iou=MIN_IOU, max_cosine_distance=MAX_COSINE_DISTANCE, tracklet
             # pass
             print("GG", e)
         
-        i += 1
+        i += 4
         # Press Q to stop!
         if opt.show and cv2.waitKey(1) & 0xFF == ord('q'):
             break

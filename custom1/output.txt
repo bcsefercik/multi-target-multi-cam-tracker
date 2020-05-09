@@ -1,0 +1,530 @@
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='/Users/bcs/Desktop/Repos/MSc/bcs_tracker/dataset_150.pickle', dataset='.', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='/Users/bcs/Desktop/Repos/MSc/bcs_tracker/dataset_150.pickle', dataset='.', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='/Users/bcs/Desktop/Repos/MSc/bcs_tracker/dataset_150.pickle', dataset='.', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='/Users/bcs/Desktop/Repos/MSc/bcs_tracker/dataset_150.pickle', dataset='.', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='/Users/bcs/Desktop/Repos/MSc/bcs_tracker/dataset_150.pickle', dataset='.', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='/Users/bcs/Desktop/Repos/MSc/bcs_tracker/dataset_150.pickle', dataset='.', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='/Users/bcs/Desktop/Repos/MSc/bcs_tracker/dataset_150.pickle', dataset='.', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='/Users/bcs/Desktop/Repos/MSc/bcs_tracker/dataset_150.pickle', dataset='.', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='/Users/bcs/Desktop/Repos/MSc/bcs_tracker/dataset_150.pickle', dataset='.', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='/Users/bcs/Desktop/Repos/MSc/bcs_tracker/dataset_150.pickle', dataset='.', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='/Users/bcs/Desktop/Repos/MSc/bcs_tracker/dataset_150.pickle', dataset='.', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='/Users/bcs/Desktop/Repos/MSc/bcs_tracker/dataset_150.pickle', dataset='.', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='/Users/bcs/Desktop/Repos/MSc/bcs_tracker/dataset_150.pickle', dataset='.', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='/Users/bcs/Desktop/Repos/MSc/bcs_tracker/dataset_150.pickle', dataset='.', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='/Users/bcs/Desktop/Repos/MSc/bcs_tracker/dataset_150.pickle', dataset='.', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='/Users/bcs/Desktop/Repos/MSc/bcs_tracker/dataset_150.pickle', dataset='.', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='out_graph.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='/Users/bcs/Desktop/Repos/MSc/bcs_tracker/dataset_150.pickle', dataset='.', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='out_graph.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='/Users/bcs/Desktop/Repos/MSc/bcs_tracker/dataset_150.pickle', dataset='.', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='out_graph.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='/Users/bcs/Desktop/Repos/MSc/bcs_tracker/dataset_150.pickle', dataset='.', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='out_graph.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='/Users/bcs/Desktop/Repos/MSc/bcs_tracker/dataset_150.pickle', dataset='.', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='out_graph.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='/Users/bcs/Desktop/Repos/MSc/bcs_tracker/dataset_150.pickle', dataset='.', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='out_graph.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='/Users/bcs/Desktop/Repos/MSc/bcs_tracker/dataset_150.pickle', dataset='.', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='out_graph.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='/Users/bcs/Desktop/Repos/MSc/bcs_tracker/dataset_150.pickle', dataset='.', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='out_graph.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='/Users/bcs/Desktop/Repos/MSc/bcs_tracker/dataset_150.pickle', dataset='.', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='out_graph.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='/Users/bcs/Desktop/Repos/MSc/bcs_tracker/dataset_150.pickle', dataset='.', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='out_graph.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='/Users/bcs/Desktop/Repos/MSc/bcs_tracker/dataset_150.pickle', dataset='.', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='out_graph.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='/Users/bcs/Desktop/Repos/MSc/bcs_tracker/dataset_150.pickle', dataset='.', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='out_graph.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='/Users/bcs/Desktop/Repos/MSc/bcs_tracker/dataset_150.pickle', dataset='.', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='out_graph.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='/Users/bcs/Desktop/Repos/MSc/bcs_tracker/dataset_150.pickle', dataset='.', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='out_graph.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='/Users/bcs/Desktop/Repos/MSc/bcs_tracker/dataset_150.pickle', dataset='.', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='out_graph.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='/Users/bcs/Desktop/Repos/MSc/bcs_tracker/dataset_150.pickle', dataset='.', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='out_graph.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='/Users/bcs/Desktop/Repos/MSc/bcs_tracker/dataset_150.pickle', dataset='.', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='out_graph.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='/Users/bcs/Desktop/Repos/MSc/bcs_tracker/dataset_150.pickle', dataset='.', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='out_graph.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='/Users/bcs/Desktop/Repos/MSc/bcs_tracker/dataset_150.pickle', dataset='.', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='out_graph.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='/Users/bcs/Desktop/Repos/MSc/bcs_tracker/dataset_150.pickle', dataset='.', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='out_graph.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='/Users/bcs/Desktop/Repos/MSc/bcs_tracker/dataset_150.pickle', dataset='.', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='out_graph.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='/Users/bcs/Desktop/Repos/MSc/bcs_tracker/dataset_150.pickle', dataset='.', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='out_graph.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='/Users/bcs/Desktop/Repos/MSc/bcs_tracker/dataset_150.pickle', dataset='.', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='out_graph.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='/Users/bcs/Desktop/Repos/MSc/bcs_tracker/dataset_150.pickle', dataset='.', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='out_graph.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='/Users/bcs/Desktop/Repos/MSc/bcs_tracker/dataset_150.pickle', dataset='.', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='out_graph.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='/Users/bcs/Desktop/Repos/MSc/bcs_tracker/dataset_150.pickle', dataset='.', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='out_graph.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='/Users/bcs/Desktop/Repos/MSc/bcs_tracker/dataset_150.pickle', dataset='.', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='out_graph.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='/Users/bcs/Desktop/Repos/MSc/bcs_tracker/dataset_150.pickle', dataset='.', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='out_graph.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='/Users/bcs/Desktop/Repos/MSc/bcs_tracker/dataset_150.pickle', dataset='.', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='out_graph.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='/Users/bcs/Desktop/Repos/MSc/bcs_tracker/dataset_150.pickle', dataset='.', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='out_graph.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='/Users/bcs/Desktop/Repos/MSc/bcs_tracker/dataset_150.pickle', dataset='.', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='out_graph.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='/Users/bcs/Desktop/Repos/MSc/bcs_tracker/dataset_150.pickle', dataset='.', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='out_graph.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='/Users/bcs/Desktop/Repos/MSc/bcs_tracker/dataset_150.pickle', dataset='.', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='out_graph.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='/Users/bcs/Desktop/Repos/MSc/bcs_tracker/dataset_150.pickle', dataset='.', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='out_graph.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='/Users/bcs/Desktop/Repos/MSc/bcs_tracker/dataset_150.pickle', dataset='.', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='out_graph.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='/Users/bcs/Desktop/Repos/MSc/bcs_tracker/dataset_150.pickle', dataset='.', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='out_graph.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='/Users/bcs/Desktop/Repos/MSc/bcs_tracker/dataset_150.pickle', dataset='.', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='out_graph.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='/Users/bcs/Desktop/Repos/MSc/bcs_tracker/dataset_150.pickle', dataset='.', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='out_graph.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='/Users/bcs/Desktop/Repos/MSc/bcs_tracker/dataset_150.pickle', dataset='.', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='out_graph.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='/Users/bcs/Desktop/Repos/MSc/bcs_tracker/dataset_150.pickle', dataset='.', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='out_graph.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='/Users/bcs/Desktop/Repos/MSc/bcs_tracker/dataset_150.pickle', dataset='.', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='out_graph.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='/Users/bcs/Desktop/Repos/MSc/bcs_tracker/dataset_150.pickle', dataset='.', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='out_graph.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='/Users/bcs/Desktop/Repos/MSc/bcs_tracker/dataset_150.pickle', dataset='.', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='out_graph.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='/Users/bcs/Desktop/Repos/MSc/bcs_tracker/dataset_150.pickle', dataset='.', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='out_graph.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='/Users/bcs/Desktop/Repos/MSc/bcs_tracker/dataset_150.pickle', dataset='.', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='out_graph.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='/Users/bcs/Desktop/Repos/MSc/bcs_tracker/dataset_150.pickle', dataset='.', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='out_graph.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='/Users/bcs/Desktop/Repos/MSc/bcs_tracker/dataset_150.pickle', dataset='.', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='out_graph.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='/Users/bcs/Desktop/Repos/MSc/bcs_tracker/dataset_150.pickle', dataset='.', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='out_graph.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='/Users/bcs/Desktop/Repos/MSc/bcs_tracker/dataset_150.pickle', dataset='.', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='out_graph.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='/Users/bcs/Desktop/Repos/MSc/bcs_tracker/dataset_150.pickle', dataset='.', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='out_graph.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='/Users/bcs/Desktop/Repos/MSc/bcs_tracker/dataset_150.pickle', dataset='.', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='out_graph.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='/Users/bcs/Desktop/Repos/MSc/bcs_tracker/dataset_150.pickle', dataset='.', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='out_graph.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='/Users/bcs/Desktop/Repos/MSc/bcs_tracker/dataset_150.pickle', dataset='.', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='out_graph.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='/Users/bcs/Desktop/Repos/MSc/bcs_tracker/dataset_150.pickle', dataset='.', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='out_graph.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='/Users/bcs/Desktop/Repos/MSc/bcs_tracker/dataset_150.pickle', dataset='.', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='out_graph.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='/Users/bcs/Desktop/Repos/MSc/bcs_tracker/dataset_150.pickle', dataset='.', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='out_graph.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='/Users/bcs/Desktop/Repos/MSc/bcs_tracker/dataset_150.pickle', dataset='.', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='out_graph.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='.', dataset='.', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='out_graph.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='.', dataset='.', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='out_graph.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='.', dataset='dataset.pickle', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='dataset.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='.', dataset='dataset.pickle', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='dataset.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='.', dataset='dataset.pickle', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='dataset.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='.', dataset='dataset.pickle', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='dataset.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='.', dataset='dataset.pickle', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='dataset.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='.', dataset='dataset.pickle', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='dataset.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='.', dataset='dataset.pickle', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='dataset.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='.', dataset='dataset.pickle', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='dataset.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='.', dataset='dataset.pickle', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='dataset.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='.', dataset='dataset.pickle', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='dataset.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='.', dataset='dataset.pickle', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='dataset.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='.', dataset='dataset.pickle', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='dataset.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='.', dataset='dataset.pickle', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='dataset.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='.', dataset='dataset.pickle', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='dataset.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='.', dataset='dataset.pickle', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='dataset.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='.', dataset='dataset.pickle', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='dataset.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='.', dataset='dataset.pickle', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='dataset.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='.', dataset='dataset.pickle', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='dataset.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='.', dataset='dataset.pickle', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='dataset.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='.', dataset='dataset.pickle', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='dataset.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='.', dataset='dataset.pickle', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='dataset.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='.', dataset='dataset.pickle', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='dataset.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='.', dataset='dataset.pickle', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='dataset.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='.', dataset='dataset.pickle', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='dataset.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='.', dataset='dataset.pickle', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='dataset.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='.', dataset='dataset.pickle', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='dataset.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='.', dataset='dataset.pickle', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='dataset.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='.', dataset='dataset.pickle', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='dataset.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='.', dataset='dataset.pickle', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='dataset.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='.', dataset='dataset.pickle', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='dataset.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='.', dataset='dataset.pickle', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='dataset.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='.', dataset='dataset.pickle', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='dataset.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='.', dataset='dataset.pickle', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='dataset.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='.', dataset='dataset.pickle', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='dataset.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='.', dataset='dataset.pickle', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='dataset.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='.', dataset='dataset.pickle', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='dataset.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='.', dataset='dataset.pickle', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='dataset.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='.', dataset='dataset.pickle', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='dataset.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='.', dataset='dataset.pickle', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='dataset.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='.', dataset='dataset.pickle', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='dataset.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='.', dataset='dataset.pickle', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='dataset.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='.', dataset='dataset.pickle', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='dataset.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='.', dataset='dataset.pickle', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='dataset.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='.', dataset='dataset.pickle', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='dataset.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='.', dataset='dataset.pickle', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='dataset.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='.', dataset='dataset.pickle', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='dataset.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='.', dataset='dataset.pickle', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='dataset.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='.', dataset='dataset.pickle', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='dataset.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='.', dataset='dataset.pickle', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='dataset.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='.', dataset='dataset.pickle', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='dataset.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='.', dataset='dataset.pickle', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='dataset.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='.', dataset='dataset.pickle', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='dataset.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='.', dataset='dataset.pickle', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='dataset.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='.', dataset='dataset.pickle', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='dataset.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='.', dataset='dataset.pickle', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='dataset.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='.', dataset='dataset.pickle', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='dataset.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='.', dataset='dataset.pickle', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='dataset.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='.', dataset='dataset.pickle', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='dataset.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='.', dataset='dataset.pickle', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='dataset.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='.', dataset='dataset.pickle', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='dataset.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='.', dataset='dataset.pickle', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='dataset.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='.', dataset='dataset.pickle', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='dataset.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='.', dataset='dataset.pickle', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='dataset.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='.', dataset='dataset.pickle', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='dataset.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='.', dataset='dataset.pickle', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='dataset.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='.', dataset='dataset.pickle', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='dataset.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='.', dataset='dataset.pickle', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='dataset.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='.', dataset='dataset.pickle', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='dataset.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='.', dataset='dataset.pickle', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='dataset.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='.', dataset='dataset.pickle', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='dataset.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='.', dataset='dataset.pickle', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='dataset.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='.', dataset='dataset.pickle', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='dataset.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='.', dataset='dataset.pickle', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='dataset.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='.', dataset='dataset.pickle', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='dataset.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='.', dataset='dataset.pickle', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='dataset.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='.', dataset='dataset.pickle', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='dataset.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='.', dataset='dataset.pickle', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='dataset.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='.', dataset='dataset.pickle', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='dataset.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='.', dataset='dataset.pickle', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='dataset.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='.', dataset='dataset.pickle', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='dataset.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='.', dataset='dataset.pickle', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='dataset.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='.', dataset='dataset.pickle', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.005, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='dataset.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='.', dataset='dataset.pickle', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.0001, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='dataset.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='.', dataset='dataset.pickle', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.0001, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='dataset.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='.', dataset='dataset.pickle', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.0001, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='dataset.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='.', dataset='dataset.pickle', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.0001, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='dataset.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='.', dataset='dataset.pickle', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.0001, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='dataset.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='.', dataset='dataset.pickle', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.0001, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='dataset.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='.', dataset='dataset.pickle', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.0001, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='dataset.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='.', dataset='dataset.pickle', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.0001, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='dataset.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='.', dataset='dataset.pickle', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.0001, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='dataset.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='.', dataset='dataset.pickle', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.0001, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='dataset.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='.', dataset='dataset.pickle', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.0001, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='dataset.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='.', dataset='dataset.pickle', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.0001, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='dataset.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='.', dataset='dataset.pickle', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.0001, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='dataset.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='.', dataset='dataset.pickle', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.0001, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='dataset.pickle', residual=False, weight_decay=0.0005)
+Epoch 00000 | Time(s) nan | Loss 0.6885 | TrainAcc 0.5482 | ValAcc 0.5482
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='.', dataset='dataset.pickle', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.0001, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='dataset.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='.', dataset='dataset.pickle', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.0001, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='dataset.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='.', dataset='dataset.pickle', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.0001, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='dataset.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='.', dataset='dataset.pickle', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.0001, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='dataset.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='.', dataset='dataset.pickle', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.0001, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='dataset.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='.', dataset='dataset.pickle', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.0001, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='dataset.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='.', dataset='dataset.pickle', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.0001, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='dataset.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='.', dataset='dataset.pickle', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.0001, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='dataset.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='.', dataset='dataset.pickle', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.0001, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='dataset.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='.', dataset='dataset.pickle', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.0001, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='dataset.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='.', dataset='dataset.pickle', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.0001, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='dataset.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='.', dataset='dataset.pickle', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.0001, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='dataset.pickle', residual=False, weight_decay=0.0005)
+Namespace(attn_drop=0.6, cams=[1, 8], datafile='.', dataset='dataset.pickle', early_stop=False, epochs=200, fastmode=False, gpu=-1, in_drop=0.6, lr=0.0001, negative_slope=0.2, num_heads=8, num_hidden=8, num_layers=1, num_out_heads=1, output='dataset.pickle', residual=False, weight_decay=0.0005)
+Epoch 00000 | Batch 00000 | Loss 0.6927 | Acc 0.5260
+Epoch 00000 | Batch 00001 | Loss 0.6921 | Acc 0.5040
+Epoch 00000 | Batch 00002 | Loss 0.6903 | Acc 0.5420
+Epoch 00000 | Batch 00003 | Loss 0.6947 | Acc 0.4720
+Epoch 00000 | Batch 00004 | Loss 0.6933 | Acc 0.4900
+Epoch 00000 | Batch 00005 | Loss 0.6931 | Acc 0.5020
+Epoch 00000 | Batch 00006 | Loss 0.6917 | Acc 0.4860
+Epoch 00000 | Batch 00007 | Loss 0.6883 | Acc 0.5480
+Epoch 00000 | Batch 00008 | Loss 0.6956 | Acc 0.4860
+Epoch 00000 | Batch 00009 | Loss 0.6923 | Acc 0.4900
+Epoch 00000 | Batch 00010 | Loss 0.6959 | Acc 0.4720
+Epoch 00000 | Batch 00011 | Loss 0.6953 | Acc 0.5020
+Epoch 00000 | Batch 00012 | Loss 0.6960 | Acc 0.5020
+Epoch 00000 | Batch 00013 | Loss 0.6938 | Acc 0.5120
+Epoch 00000 | Batch 00014 | Loss 0.6941 | Acc 0.5000
+Epoch 00000 | Batch 00015 | Loss 0.6935 | Acc 0.4900
+Epoch 00000 | Batch 00016 | Loss 0.6897 | Acc 0.5420
+Epoch 00000 | Batch 00017 | Loss 0.6885 | Acc 0.5560
+Epoch 00000 | Batch 00018 | Loss 0.6882 | Acc 0.5340
+Epoch 00000 | Batch 00019 | Loss 0.6878 | Acc 0.5680
+Epoch 00000 | Batch 00020 | Loss 0.6898 | Acc 0.5480
+Epoch 00000 | Batch 00021 | Loss 0.6914 | Acc 0.5200
+Epoch 00000 | Batch 00022 | Loss 0.6899 | Acc 0.5260
+Epoch 00000 | Batch 00023 | Loss 0.6907 | Acc 0.5340
+Epoch 00000 | Batch 00024 | Loss 0.6900 | Acc 0.5440
+Epoch 00000 | Batch 00025 | Loss 0.6877 | Acc 0.5580
+Epoch 00000 | Batch 00026 | Loss 0.6890 | Acc 0.5580
+Epoch 00000 | Batch 00027 | Loss 0.6902 | Acc 0.5600
+Epoch 00000 | Batch 00028 | Loss 0.6872 | Acc 0.5760
+Epoch 00000 | Batch 00029 | Loss 0.6863 | Acc 0.5700
+Epoch 00000 | Batch 00030 | Loss 0.6900 | Acc 0.5740
+Epoch 00000 | Batch 00031 | Loss 0.6904 | Acc 0.5460
+Epoch 00000 | Batch 00032 | Loss 0.6894 | Acc 0.5320
+Epoch 00000 | Batch 00033 | Loss 0.6868 | Acc 0.6060
+Epoch 00000 | Batch 00034 | Loss 0.6838 | Acc 0.6260
+Epoch 00000 | Batch 00035 | Loss 0.6848 | Acc 0.5500
+Epoch 00000 | Batch 00036 | Loss 0.6837 | Acc 0.5920
+Epoch 00000 | Batch 00037 | Loss 0.6844 | Acc 0.5860
+Epoch 00000 | Batch 00038 | Loss 0.6860 | Acc 0.5740
+Epoch 00000 | Batch 00039 | Loss 0.6847 | Acc 0.5560
+Epoch 00000 | Batch 00040 | Loss 0.6890 | Acc 0.5440
+Epoch 00000 | Batch 00041 | Loss 0.6849 | Acc 0.5540
+Epoch 00000 | Batch 00042 | Loss 0.6832 | Acc 0.5700
+Epoch 00000 | Batch 00043 | Loss 0.6835 | Acc 0.5840
+Epoch 00000 | Batch 00044 | Loss 0.6842 | Acc 0.5960
+Epoch 00000 | Batch 00045 | Loss 0.6875 | Acc 0.5520
+Epoch 00000 | Batch 00046 | Loss 0.6822 | Acc 0.5840
+Epoch 00000 | Batch 00047 | Loss 0.6973 | Acc 0.5060
+Epoch 00000 | Batch 00048 | Loss 0.6859 | Acc 0.5680
+Epoch 00000 | Batch 00049 | Loss 0.6879 | Acc 0.5740
+Epoch 00000 | Batch 00050 | Loss 0.6823 | Acc 0.5900
+Epoch 00000 | Batch 00051 | Loss 0.6858 | Acc 0.5520
+Epoch 00000 | Batch 00052 | Loss 0.6852 | Acc 0.5860
+Epoch 00000 | Batch 00053 | Loss 0.6813 | Acc 0.5860
+Epoch 00000 | Batch 00054 | Loss 0.6798 | Acc 0.6100
+Epoch 00000 | Batch 00055 | Loss 0.6822 | Acc 0.5920
+Epoch 00000 | Batch 00056 | Loss 0.6824 | Acc 0.6040
+Epoch 00000 | Batch 00057 | Loss 0.6838 | Acc 0.5800
+Epoch 00000 | Batch 00058 | Loss 0.6805 | Acc 0.5820
+Epoch 00000 | Batch 00059 | Loss 0.6771 | Acc 0.6100
+Epoch 00000 | Batch 00060 | Loss 0.6819 | Acc 0.5980
+Epoch 00000 | Batch 00061 | Loss 0.6740 | Acc 0.6200
+Epoch 00000 | Batch 00062 | Loss 0.6800 | Acc 0.5820
+Epoch 00000 | Time(s) nan | Loss 0.6877 | TrainAcc 0.5521 | TestAcc 0.6103
+Epoch 00001 | Batch 00000 | Loss 0.6807 | Acc 0.5740
+Epoch 00001 | Batch 00001 | Loss 0.6801 | Acc 0.5700
+Epoch 00001 | Batch 00002 | Loss 0.6780 | Acc 0.5720
+Epoch 00001 | Batch 00003 | Loss 0.6768 | Acc 0.6020
+Epoch 00001 | Batch 00004 | Loss 0.6773 | Acc 0.5920
+Epoch 00001 | Batch 00005 | Loss 0.6850 | Acc 0.5760
+Epoch 00001 | Batch 00006 | Loss 0.6724 | Acc 0.6220
+Epoch 00001 | Batch 00007 | Loss 0.6714 | Acc 0.6040
+Epoch 00001 | Batch 00008 | Loss 0.6775 | Acc 0.5840
+Epoch 00001 | Batch 00009 | Loss 0.6810 | Acc 0.5620
+Epoch 00001 | Batch 00010 | Loss 0.6768 | Acc 0.5920
+Epoch 00001 | Batch 00011 | Loss 0.6666 | Acc 0.6260
+Epoch 00001 | Batch 00012 | Loss 0.6766 | Acc 0.5780
+Epoch 00001 | Batch 00013 | Loss 0.6667 | Acc 0.6560
+Epoch 00001 | Batch 00014 | Loss 0.6742 | Acc 0.5820
+Epoch 00001 | Batch 00015 | Loss 0.6817 | Acc 0.5660
+Epoch 00001 | Batch 00016 | Loss 0.6583 | Acc 0.6360
+Epoch 00001 | Batch 00017 | Loss 0.6604 | Acc 0.6340
+Epoch 00001 | Batch 00018 | Loss 0.6670 | Acc 0.6220
+Epoch 00001 | Batch 00019 | Loss 0.6646 | Acc 0.6340
+Epoch 00001 | Batch 00020 | Loss 0.6638 | Acc 0.6080
+Epoch 00001 | Batch 00021 | Loss 0.6680 | Acc 0.6120
+Epoch 00001 | Batch 00022 | Loss 0.6652 | Acc 0.6100
+Epoch 00001 | Batch 00023 | Loss 0.6713 | Acc 0.5860
+Epoch 00001 | Batch 00024 | Loss 0.6733 | Acc 0.6120
+Epoch 00001 | Batch 00025 | Loss 0.6614 | Acc 0.5960
+Epoch 00001 | Batch 00026 | Loss 0.6715 | Acc 0.5960
+Epoch 00001 | Batch 00027 | Loss 0.6685 | Acc 0.6020
+Epoch 00001 | Batch 00028 | Loss 0.6595 | Acc 0.6240
+Epoch 00001 | Batch 00029 | Loss 0.6596 | Acc 0.6120
+Epoch 00001 | Batch 00030 | Loss 0.6623 | Acc 0.6140
+Epoch 00001 | Batch 00031 | Loss 0.6558 | Acc 0.6020
+Epoch 00001 | Batch 00032 | Loss 0.6706 | Acc 0.5920
+Epoch 00001 | Batch 00033 | Loss 0.6582 | Acc 0.6140
+Epoch 00001 | Batch 00034 | Loss 0.6500 | Acc 0.6180
+Epoch 00001 | Batch 00035 | Loss 0.6476 | Acc 0.6480
+Epoch 00001 | Batch 00036 | Loss 0.6409 | Acc 0.6600
+Epoch 00001 | Batch 00037 | Loss 0.6600 | Acc 0.6140
+Epoch 00001 | Batch 00038 | Loss 0.6524 | Acc 0.6360
+Epoch 00001 | Batch 00039 | Loss 0.6535 | Acc 0.6300
+Epoch 00001 | Batch 00040 | Loss 0.6568 | Acc 0.6200
+Epoch 00001 | Batch 00041 | Loss 0.6614 | Acc 0.6260
+Epoch 00001 | Batch 00042 | Loss 0.6422 | Acc 0.6560
+Epoch 00001 | Batch 00043 | Loss 0.6593 | Acc 0.6200
+Epoch 00001 | Batch 00044 | Loss 0.6382 | Acc 0.6560
+Epoch 00001 | Batch 00045 | Loss 0.6513 | Acc 0.6500
+Epoch 00001 | Batch 00046 | Loss 0.6398 | Acc 0.6480
+Epoch 00001 | Batch 00047 | Loss 0.6896 | Acc 0.5500
+Epoch 00001 | Batch 00048 | Loss 0.6571 | Acc 0.6060
+Epoch 00001 | Batch 00049 | Loss 0.6478 | Acc 0.6420
+Epoch 00001 | Batch 00050 | Loss 0.6505 | Acc 0.6280
+Epoch 00001 | Batch 00051 | Loss 0.6555 | Acc 0.5980
+Epoch 00001 | Batch 00052 | Loss 0.6481 | Acc 0.6280
+Epoch 00001 | Batch 00053 | Loss 0.6671 | Acc 0.5840
+Epoch 00001 | Batch 00054 | Loss 0.6468 | Acc 0.6280
+Epoch 00001 | Batch 00055 | Loss 0.6400 | Acc 0.6320
+Epoch 00001 | Batch 00056 | Loss 0.6457 | Acc 0.6200
+Epoch 00001 | Batch 00057 | Loss 0.6549 | Acc 0.6260
+Epoch 00001 | Batch 00058 | Loss 0.6386 | Acc 0.6420
+Epoch 00001 | Batch 00059 | Loss 0.6507 | Acc 0.6300
+Epoch 00001 | Batch 00060 | Loss 0.6538 | Acc 0.6260
+Epoch 00001 | Batch 00061 | Loss 0.6220 | Acc 0.6540
+Epoch 00001 | Batch 00062 | Loss 0.6392 | Acc 0.6120
+Epoch 00001 | Time(s) nan | Loss 0.6610 | TrainAcc 0.6135 | TestAcc 0.6323
+Epoch 00002 | Batch 00000 | Loss 0.6509 | Acc 0.5960
+Epoch 00002 | Batch 00001 | Loss 0.6470 | Acc 0.5980
+Epoch 00002 | Batch 00002 | Loss 0.6518 | Acc 0.5960
+Epoch 00002 | Batch 00003 | Loss 0.6397 | Acc 0.6520
+Epoch 00002 | Batch 00004 | Loss 0.6423 | Acc 0.6360
+Epoch 00002 | Batch 00005 | Loss 0.6706 | Acc 0.5720
+Epoch 00002 | Batch 00006 | Loss 0.6366 | Acc 0.6560
+Epoch 00002 | Batch 00007 | Loss 0.6372 | Acc 0.6140
+Epoch 00002 | Batch 00008 | Loss 0.6533 | Acc 0.6080
+Epoch 00002 | Batch 00009 | Loss 0.6548 | Acc 0.6200
+Epoch 00002 | Batch 00010 | Loss 0.6379 | Acc 0.6140
+Epoch 00002 | Batch 00011 | Loss 0.6109 | Acc 0.6880
+Epoch 00002 | Batch 00012 | Loss 0.6740 | Acc 0.6060
+Epoch 00002 | Batch 00013 | Loss 0.6212 | Acc 0.6620
+Epoch 00002 | Batch 00014 | Loss 0.6483 | Acc 0.6340
+Epoch 00002 | Batch 00015 | Loss 0.6802 | Acc 0.5560
+Epoch 00002 | Batch 00016 | Loss 0.6295 | Acc 0.6320
+Epoch 00002 | Batch 00017 | Loss 0.6170 | Acc 0.6740
+Epoch 00002 | Batch 00018 | Loss 0.6399 | Acc 0.6200
+Epoch 00002 | Batch 00019 | Loss 0.6271 | Acc 0.6700
+Epoch 00002 | Batch 00020 | Loss 0.6480 | Acc 0.6080
+Epoch 00002 | Batch 00021 | Loss 0.6509 | Acc 0.6080
+Epoch 00002 | Batch 00022 | Loss 0.6362 | Acc 0.6500
+Epoch 00002 | Batch 00023 | Loss 0.6474 | Acc 0.6080
+Epoch 00002 | Batch 00024 | Loss 0.6617 | Acc 0.6160
+Epoch 00002 | Batch 00025 | Loss 0.6247 | Acc 0.6440
+Epoch 00002 | Batch 00026 | Loss 0.6482 | Acc 0.6320
+Epoch 00002 | Batch 00027 | Loss 0.6438 | Acc 0.6340
+Epoch 00002 | Batch 00028 | Loss 0.6315 | Acc 0.6600
+Epoch 00002 | Batch 00029 | Loss 0.6381 | Acc 0.6140
+Epoch 00002 | Batch 00030 | Loss 0.6423 | Acc 0.6140
+Epoch 00002 | Batch 00031 | Loss 0.6212 | Acc 0.6700
+Epoch 00002 | Batch 00032 | Loss 0.6420 | Acc 0.6520
+Epoch 00002 | Batch 00033 | Loss 0.6192 | Acc 0.6660
+Epoch 00002 | Batch 00034 | Loss 0.6095 | Acc 0.6760
+Epoch 00002 | Batch 00035 | Loss 0.6262 | Acc 0.6420
+Epoch 00002 | Batch 00036 | Loss 0.6202 | Acc 0.6740
+Epoch 00002 | Batch 00037 | Loss 0.6398 | Acc 0.6160
+Epoch 00002 | Batch 00038 | Loss 0.6264 | Acc 0.6460
+Epoch 00002 | Batch 00039 | Loss 0.6320 | Acc 0.6680
+Epoch 00002 | Batch 00040 | Loss 0.6409 | Acc 0.6560
+Epoch 00002 | Batch 00041 | Loss 0.6329 | Acc 0.6240
+Epoch 00002 | Batch 00042 | Loss 0.6196 | Acc 0.6740
+Epoch 00002 | Batch 00043 | Loss 0.6506 | Acc 0.6420
+Epoch 00002 | Batch 00044 | Loss 0.6044 | Acc 0.6900
+Epoch 00002 | Batch 00045 | Loss 0.6373 | Acc 0.6780
+Epoch 00002 | Batch 00046 | Loss 0.6190 | Acc 0.6680
+Epoch 00002 | Batch 00047 | Loss 0.6809 | Acc 0.5960
+Epoch 00002 | Batch 00048 | Loss 0.6286 | Acc 0.6560
+Epoch 00002 | Batch 00049 | Loss 0.6343 | Acc 0.6380
+Epoch 00002 | Batch 00050 | Loss 0.6129 | Acc 0.6640
+Epoch 00002 | Batch 00051 | Loss 0.6451 | Acc 0.6200
+Epoch 00002 | Batch 00052 | Loss 0.6336 | Acc 0.6500
+Epoch 00002 | Batch 00053 | Loss 0.6637 | Acc 0.5900
+Epoch 00002 | Batch 00054 | Loss 0.6334 | Acc 0.6560
+Epoch 00002 | Batch 00055 | Loss 0.6284 | Acc 0.6620
+Epoch 00002 | Batch 00056 | Loss 0.6252 | Acc 0.6440
+Epoch 00002 | Batch 00057 | Loss 0.6526 | Acc 0.6500
+Epoch 00002 | Batch 00058 | Loss 0.6280 | Acc 0.6360
+Epoch 00002 | Batch 00059 | Loss 0.6297 | Acc 0.6460
+Epoch 00002 | Batch 00060 | Loss 0.6599 | Acc 0.6400
+Epoch 00002 | Batch 00061 | Loss 0.6120 | Acc 0.6660
+Epoch 00002 | Batch 00062 | Loss 0.6330 | Acc 0.6500
+Epoch 00002 | Time(s) nan | Loss 0.6379 | TrainAcc 0.6381 | TestAcc 0.6509
+Epoch 00003 | Batch 00000 | Loss 0.6368 | Acc 0.6300
+Epoch 00003 | Batch 00001 | Loss 0.6333 | Acc 0.6460
+Epoch 00003 | Batch 00002 | Loss 0.6346 | Acc 0.6360
+Epoch 00003 | Batch 00003 | Loss 0.6304 | Acc 0.6680
+Epoch 00003 | Batch 00004 | Loss 0.6405 | Acc 0.6400
+Epoch 00003 | Batch 00005 | Loss 0.6611 | Acc 0.6140
+Epoch 00003 | Batch 00006 | Loss 0.6182 | Acc 0.6660
+Epoch 00003 | Batch 00007 | Loss 0.6225 | Acc 0.6480
+Epoch 00003 | Batch 00008 | Loss 0.6363 | Acc 0.6440
+Epoch 00003 | Batch 00009 | Loss 0.6529 | Acc 0.6300
+Epoch 00003 | Batch 00010 | Loss 0.6358 | Acc 0.6260
+Epoch 00003 | Batch 00011 | Loss 0.6053 | Acc 0.6960
+Epoch 00003 | Batch 00012 | Loss 0.6528 | Acc 0.6120
+Epoch 00003 | Batch 00013 | Loss 0.5938 | Acc 0.7020
+Epoch 00003 | Batch 00014 | Loss 0.6305 | Acc 0.6460
+Epoch 00003 | Batch 00015 | Loss 0.6632 | Acc 0.5860
+Epoch 00003 | Batch 00016 | Loss 0.6171 | Acc 0.6540
+Epoch 00003 | Batch 00017 | Loss 0.6107 | Acc 0.6680
+Epoch 00003 | Batch 00018 | Loss 0.6203 | Acc 0.6460
+Epoch 00003 | Batch 00019 | Loss 0.6074 | Acc 0.6860
+Epoch 00003 | Batch 00020 | Loss 0.6302 | Acc 0.6260
+Epoch 00003 | Batch 00021 | Loss 0.6334 | Acc 0.6280
+Epoch 00003 | Batch 00022 | Loss 0.6195 | Acc 0.6380
+Epoch 00003 | Batch 00023 | Loss 0.6267 | Acc 0.6400
+Epoch 00003 | Batch 00024 | Loss 0.6573 | Acc 0.6260
+Epoch 00003 | Batch 00025 | Loss 0.6328 | Acc 0.6380
+Epoch 00003 | Batch 00026 | Loss 0.6454 | Acc 0.6440
+Epoch 00003 | Batch 00027 | Loss 0.6418 | Acc 0.6520
+Epoch 00003 | Batch 00028 | Loss 0.6160 | Acc 0.6640
+Epoch 00003 | Batch 00029 | Loss 0.6301 | Acc 0.6460
+Epoch 00003 | Batch 00030 | Loss 0.6301 | Acc 0.6400
+Epoch 00003 | Batch 00031 | Loss 0.6285 | Acc 0.6580
+Epoch 00003 | Batch 00032 | Loss 0.6406 | Acc 0.6500
+Epoch 00003 | Batch 00033 | Loss 0.6063 | Acc 0.6980
+Epoch 00003 | Batch 00034 | Loss 0.6072 | Acc 0.6780
+Epoch 00003 | Batch 00035 | Loss 0.6241 | Acc 0.6340
+Epoch 00003 | Batch 00036 | Loss 0.6187 | Acc 0.6760
+Epoch 00003 | Batch 00037 | Loss 0.6195 | Acc 0.6260
+Epoch 00003 | Batch 00038 | Loss 0.6183 | Acc 0.6760
+Epoch 00003 | Batch 00039 | Loss 0.6267 | Acc 0.6600
+Epoch 00003 | Batch 00040 | Loss 0.6221 | Acc 0.6640
+Epoch 00003 | Batch 00041 | Loss 0.6294 | Acc 0.6380
+Epoch 00003 | Batch 00042 | Loss 0.6049 | Acc 0.6860
+Epoch 00003 | Batch 00043 | Loss 0.6426 | Acc 0.6500
+Epoch 00003 | Batch 00044 | Loss 0.6209 | Acc 0.6660
+Epoch 00003 | Batch 00045 | Loss 0.6333 | Acc 0.6440
+Epoch 00003 | Batch 00046 | Loss 0.5996 | Acc 0.6880
+Epoch 00003 | Batch 00047 | Loss 0.6817 | Acc 0.5820
+Epoch 00003 | Batch 00048 | Loss 0.6262 | Acc 0.6460
+Epoch 00003 | Batch 00049 | Loss 0.6241 | Acc 0.6800
+Epoch 00003 | Batch 00050 | Loss 0.6069 | Acc 0.6740
+Epoch 00003 | Batch 00051 | Loss 0.6202 | Acc 0.6600
+Epoch 00003 | Batch 00052 | Loss 0.6253 | Acc 0.6600
+Epoch 00003 | Batch 00053 | Loss 0.6557 | Acc 0.5960
+Epoch 00003 | Batch 00054 | Loss 0.6252 | Acc 0.6560
+Epoch 00003 | Batch 00055 | Loss 0.6182 | Acc 0.6680
+Epoch 00003 | Batch 00056 | Loss 0.6142 | Acc 0.6440
+Epoch 00003 | Batch 00057 | Loss 0.6447 | Acc 0.6360
+Epoch 00003 | Batch 00058 | Loss 0.6204 | Acc 0.6660
+Epoch 00003 | Batch 00059 | Loss 0.6242 | Acc 0.6520
+Epoch 00003 | Batch 00060 | Loss 0.6425 | Acc 0.6600
+Epoch 00003 | Batch 00061 | Loss 0.6082 | Acc 0.6620
+Epoch 00003 | Batch 00062 | Loss 0.6219 | Acc 0.6480
+Epoch 00003 | Time(s) 168.9969 | Loss 0.6281 | TrainAcc 0.6503 | TestAcc 0.6634
+Epoch 00004 | Batch 00000 | Loss 0.6318 | Acc 0.6360
+Epoch 00004 | Batch 00001 | Loss 0.6168 | Acc 0.6540
+Epoch 00004 | Batch 00002 | Loss 0.6265 | Acc 0.6460
+Epoch 00004 | Batch 00003 | Loss 0.6195 | Acc 0.6520
+Epoch 00004 | Batch 00004 | Loss 0.6320 | Acc 0.6320
+Epoch 00004 | Batch 00005 | Loss 0.6466 | Acc 0.6360
+Epoch 00004 | Batch 00006 | Loss 0.6106 | Acc 0.6880
+Epoch 00004 | Batch 00007 | Loss 0.6108 | Acc 0.6580
+Epoch 00004 | Batch 00008 | Loss 0.6314 | Acc 0.6440
+Epoch 00004 | Batch 00009 | Loss 0.6432 | Acc 0.6200
+Epoch 00004 | Batch 00010 | Loss 0.6240 | Acc 0.6360
+Epoch 00004 | Batch 00011 | Loss 0.5961 | Acc 0.7080
+Epoch 00004 | Batch 00012 | Loss 0.6420 | Acc 0.6580
+Epoch 00004 | Batch 00013 | Loss 0.5939 | Acc 0.6940
+Epoch 00004 | Batch 00014 | Loss 0.6207 | Acc 0.6620
+Epoch 00004 | Batch 00015 | Loss 0.6478 | Acc 0.6240
+Epoch 00004 | Batch 00016 | Loss 0.6052 | Acc 0.6760
+Epoch 00004 | Batch 00017 | Loss 0.5971 | Acc 0.6680
+Epoch 00004 | Batch 00018 | Loss 0.6067 | Acc 0.6860
+Epoch 00004 | Batch 00019 | Loss 0.6064 | Acc 0.6900
+Epoch 00004 | Batch 00020 | Loss 0.6255 | Acc 0.6400
+Epoch 00004 | Batch 00021 | Loss 0.6290 | Acc 0.6240
+Epoch 00004 | Batch 00022 | Loss 0.6026 | Acc 0.6760
+Epoch 00004 | Batch 00023 | Loss 0.6316 | Acc 0.6600
+Epoch 00004 | Batch 00024 | Loss 0.6573 | Acc 0.6240
+Epoch 00004 | Batch 00025 | Loss 0.6256 | Acc 0.6580
+Epoch 00004 | Batch 00026 | Loss 0.6480 | Acc 0.6380
+Epoch 00004 | Batch 00027 | Loss 0.6617 | Acc 0.6400
+Epoch 00004 | Batch 00028 | Loss 0.6165 | Acc 0.6440
+Epoch 00004 | Batch 00029 | Loss 0.6240 | Acc 0.6800
+Epoch 00004 | Batch 00030 | Loss 0.6201 | Acc 0.6700
+Epoch 00004 | Batch 00031 | Loss 0.6216 | Acc 0.6620
+Epoch 00004 | Batch 00032 | Loss 0.6361 | Acc 0.6440
+Epoch 00004 | Batch 00033 | Loss 0.6070 | Acc 0.6660
+Epoch 00004 | Batch 00034 | Loss 0.6097 | Acc 0.6760
+Epoch 00004 | Batch 00035 | Loss 0.6233 | Acc 0.6780
+Epoch 00004 | Batch 00036 | Loss 0.6030 | Acc 0.6780
+Epoch 00004 | Batch 00037 | Loss 0.6329 | Acc 0.6300
+Epoch 00004 | Batch 00038 | Loss 0.6123 | Acc 0.6760
+Epoch 00004 | Batch 00039 | Loss 0.6194 | Acc 0.6540
+Epoch 00004 | Batch 00040 | Loss 0.6128 | Acc 0.6600
+Epoch 00004 | Batch 00041 | Loss 0.6235 | Acc 0.6500
+Epoch 00004 | Batch 00042 | Loss 0.6007 | Acc 0.6720
+Epoch 00004 | Batch 00043 | Loss 0.6379 | Acc 0.6600
+Epoch 00004 | Batch 00044 | Loss 0.5916 | Acc 0.6900
+Epoch 00004 | Batch 00045 | Loss 0.6187 | Acc 0.6680
+Epoch 00004 | Batch 00046 | Loss 0.5922 | Acc 0.7040
+Epoch 00004 | Batch 00047 | Loss 0.6656 | Acc 0.5940
+Epoch 00004 | Batch 00048 | Loss 0.6250 | Acc 0.6580
+Epoch 00004 | Batch 00049 | Loss 0.6255 | Acc 0.6620
+Epoch 00004 | Batch 00050 | Loss 0.6115 | Acc 0.6720
+Epoch 00004 | Batch 00051 | Loss 0.6169 | Acc 0.6720
+Epoch 00004 | Batch 00052 | Loss 0.6191 | Acc 0.6720
+Epoch 00004 | Batch 00053 | Loss 0.6491 | Acc 0.6200
+Epoch 00004 | Batch 00054 | Loss 0.6170 | Acc 0.6500
+Epoch 00004 | Batch 00055 | Loss 0.6106 | Acc 0.6800
+Epoch 00004 | Batch 00056 | Loss 0.6210 | Acc 0.6460
+Epoch 00004 | Batch 00057 | Loss 0.6416 | Acc 0.6380
+Epoch 00004 | Batch 00058 | Loss 0.6152 | Acc 0.6780
+Epoch 00004 | Batch 00059 | Loss 0.6163 | Acc 0.6620
+Epoch 00004 | Batch 00060 | Loss 0.6388 | Acc 0.6300
+Epoch 00004 | Batch 00061 | Loss 0.6005 | Acc 0.6620
+Epoch 00004 | Batch 00062 | Loss 0.6187 | Acc 0.6660
+Epoch 00004 | Time(s) 174.9444 | Loss 0.6220 | TrainAcc 0.6580 | TestAcc 0.6740
+Epoch 00005 | Batch 00000 | Loss 0.6239 | Acc 0.6540
+Epoch 00005 | Batch 00001 | Loss 0.6166 | Acc 0.6520
+Epoch 00005 | Batch 00002 | Loss 0.6207 | Acc 0.6600
+Epoch 00005 | Batch 00003 | Loss 0.6043 | Acc 0.6800
+Epoch 00005 | Batch 00004 | Loss 0.6210 | Acc 0.6540
+Epoch 00005 | Batch 00005 | Loss 0.6453 | Acc 0.6480
+Epoch 00005 | Batch 00006 | Loss 0.6073 | Acc 0.6820
+Epoch 00005 | Batch 00007 | Loss 0.6120 | Acc 0.6460
+Epoch 00005 | Batch 00008 | Loss 0.6184 | Acc 0.6760
+Epoch 00005 | Batch 00009 | Loss 0.6345 | Acc 0.6320
+Epoch 00005 | Batch 00010 | Loss 0.6171 | Acc 0.6520
+Epoch 00005 | Batch 00011 | Loss 0.5855 | Acc 0.7220
+Epoch 00005 | Batch 00012 | Loss 0.6469 | Acc 0.6460
+Epoch 00005 | Batch 00013 | Loss 0.5890 | Acc 0.6940
+Epoch 00005 | Batch 00014 | Loss 0.6228 | Acc 0.6620
+Epoch 00005 | Batch 00015 | Loss 0.6478 | Acc 0.6160
+Epoch 00005 | Batch 00016 | Loss 0.5985 | Acc 0.6920
+Epoch 00005 | Batch 00017 | Loss 0.5871 | Acc 0.6780
+Epoch 00005 | Batch 00018 | Loss 0.6015 | Acc 0.6800
+Epoch 00005 | Batch 00019 | Loss 0.5984 | Acc 0.6960
+Epoch 00005 | Batch 00020 | Loss 0.6223 | Acc 0.6400
+Epoch 00005 | Batch 00021 | Loss 0.6250 | Acc 0.6420
+Epoch 00005 | Batch 00022 | Loss 0.5980 | Acc 0.6800
+Epoch 00005 | Batch 00023 | Loss 0.6202 | Acc 0.6520
+Epoch 00005 | Batch 00024 | Loss 0.6529 | Acc 0.6440
+Epoch 00005 | Batch 00025 | Loss 0.6151 | Acc 0.6600
