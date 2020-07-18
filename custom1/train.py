@@ -161,11 +161,14 @@ def load_data(args):
 
 
 def accuracy(logits, labels):
-    pred = torch.BoolTensor(logits>0)
-    gold = torch.BoolTensor(labels>0)
+    # pdb.set_trace()
+    # pred = torch.BoolTensor(logits>0).cuda()
+    # gold = torch.BoolTensor(labels>0).cuda()
+    pred = logits>0
+    gold = labels>0
     correct = torch.sum(pred == gold)
     return correct.item() * 1.0 / len(labels)
-
+    # return 1.0
 
 def evaluate(model, labels, batch, node_features, tracklet_features):
     model.eval()
@@ -181,6 +184,7 @@ def batcher(dev):
     return batcher_dev
 
 def main(args):
+    best_val_acc = 0
     dataset_name = args.trainingdataset.split("_training.pickle")[0]
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
     
@@ -254,6 +258,8 @@ def main(args):
         test_graphs.append(dataset_val['graphs'][i])
         test_labels.append(dataset_val['labels'][i])
 
+    print(len(training_labels), len(training_labels)/args.batchsize)
+
     training_labels = torch.FloatTensor(training_labels)
     training_graph_data = torch.FloatTensor(training_graph_data)
     training_tracklet_data = torch.FloatTensor(training_tracklet_data)
@@ -264,7 +270,7 @@ def main(args):
 
     train_loader = DataLoader(
         dataset=training_graphs,
-        batch_size=BATCH_SIZE,
+        batch_size=args.batchsize,
         collate_fn=batcher(device),
         shuffle=False,
         num_workers=0
@@ -272,7 +278,7 @@ def main(args):
 
     test_loader = DataLoader(
         dataset=test_graphs,
-        batch_size=BATCH_SIZE,
+        batch_size=args.batchsize,
         collate_fn=batcher(device),
         shuffle=False,
         num_workers=0
@@ -308,7 +314,7 @@ def main(args):
     if args.early_stop:
         stopper = EarlyStopping(patience=100)
     if cuda:
-        model.cuda()
+        model = model.cuda()
 
     loss_func = torch.nn.SoftMarginLoss()
     # loss_func = torch.nn.MultiMarginLoss()
@@ -320,10 +326,10 @@ def main(args):
     dur = []
     loss_values = []
     training_accuracy = []
-    test_accuracy = []
+    val_accuracy = []
     for epoch in range(args.epochs):
         training_accuracy.append([])
-        test_accuracy.append([])
+        val_accuracy.append([])
         loss_values.append([])
         total_count = 0
         # print(len(training_graphs), len(training_graph_data), len(training_tracklet_data))
@@ -334,19 +340,19 @@ def main(args):
         # forward
 
         for step, batch in enumerate(train_loader):
-            if len(training_graphs) < (step+1)*BATCH_SIZE:
+            if len(training_graphs) < (step+1)*args.batchsize:
                 continue
-            node_features = training_graph_data[step*BATCH_SIZE:min(len(training_graphs), (step+1)*BATCH_SIZE), :]
-            tracklet_features = training_tracklet_data[step*BATCH_SIZE:min(len(training_graphs), (step+1)*BATCH_SIZE), :]
+            node_features = training_graph_data[step*args.batchsize:min(len(training_graphs), (step+1)*args.batchsize), :]
+            tracklet_features = training_tracklet_data[step*args.batchsize:min(len(training_graphs), (step+1)*args.batchsize), :]
             logits = model(batch, node_features, tracklet_features)
-            loss = loss_func(logits, training_labels[step*BATCH_SIZE:min(len(training_graphs), (step+1)*BATCH_SIZE)])
+            loss = loss_func(logits, training_labels[step*args.batchsize:min(len(training_graphs), (step+1)*args.batchsize)])
 
             optimizer.zero_grad()
             loss.backward()
             optimizer.step()
 
             training_accuracy[epoch].append(
-                accuracy(logits, training_labels[step*BATCH_SIZE:min(len(training_graphs), (step+1)*BATCH_SIZE)]))
+                accuracy(logits, training_labels[step*args.batchsize:min(len(training_graphs), (step+1)*args.batchsize)]))
             loss_values[epoch].append(loss.item())
 
             log_str = "Epoch {:05d} | Batch {:05d} | Loss {:.4f} | Acc {:.4f}\n".format(
@@ -361,14 +367,14 @@ def main(args):
                 fp.write(log_str)
 
         for step, batch in enumerate(test_loader):
-            if len(test_graphs) < (step+1)*BATCH_SIZE:
+            if len(test_graphs) < (step+1)*args.batchsize:
                 continue
-            node_features = test_graph_data[step*BATCH_SIZE:min(len(test_graphs), (step+1)*BATCH_SIZE), :]
-            tracklet_features = test_tracklet_data[step*BATCH_SIZE:min(len(test_graphs), (step+1)*BATCH_SIZE), :]
+            node_features = test_graph_data[step*args.batchsize:min(len(test_graphs), (step+1)*args.batchsize), :]
+            tracklet_features = test_tracklet_data[step*args.batchsize:min(len(test_graphs), (step+1)*args.batchsize), :]
             
-            test_accuracy[epoch].append(evaluate(
+            val_accuracy[epoch].append(evaluate(
                 model, 
-                test_labels[step*BATCH_SIZE:min(len(test_graphs), (step+1)*BATCH_SIZE)],
+                test_labels[step*args.batchsize:min(len(test_graphs), (step+1)*args.batchsize)],
                 batch,
                 node_features,
                 tracklet_features
@@ -388,11 +394,11 @@ def main(args):
         #             break
 
         train_acc = np.mean(training_accuracy[epoch])
-        test_acc = np.mean(test_accuracy[epoch])
+        val_acc = np.mean(val_accuracy[epoch])
 
-        print(train_acc, test_acc)
+        print(train_acc, val_acc)
 
-        if epoch%15 == 0:
+        if epoch%3 == 0 and val_acc > best_val_acc:
             torch.save(model, "{}_model.pt".format(dataset_name))
 
         log_str = "Epoch {:05d} | Time(s) {:.4f} | Loss {:.4f} | TrainAcc {:.4f} | TestAcc {:.4f}\n".format(
@@ -400,7 +406,7 @@ def main(args):
             np.mean(dur), 
             float(np.mean(loss_values[epoch])), 
             float(train_acc), 
-            float(test_acc)
+            float(val_acc)
         )
 
         print(log_str)
@@ -425,6 +431,8 @@ if __name__ == '__main__':
     parser.add_argument("--output", type=str, default='dataset.pickle')
     parser.add_argument("--datafile", type=str, default=None)
     parser.add_argument("--cams", type=int, nargs='+', default=[1, 8])
+    parser.add_argument("--nodes", type=int, default=12)
+    parser.add_argument("--batchsize", type=int, default=512)
 
     parser.add_argument("--gpu", type=int, default=-1,
                         help="which GPU to use. Set -1 to use CPU.")

@@ -11,11 +11,11 @@ import torch.nn.functional as F
 
 class BCS(nn.Module):
     def __init__(self,
-        n_nodes = 12,  
-        num_layers=6,
-        in_dim=140,
+        n_nodes = 4,  
+        num_layers=3,
+        in_dim=128,
         num_hidden=100,
-        g_out_dim=140,
+        g_out_dim=128,
         num_heads=8,
         num_out_heads=1,
         activation=F.elu,
@@ -46,7 +46,7 @@ class BCS(nn.Module):
             feat_drop, attn_drop, negative_slope, residual, None))
 
         self.fc1 = nn.Sequential(
-            nn.Linear(self.n_nodes*g_out_dim + 140, 500),
+            nn.Linear(self.n_nodes*g_out_dim + 128, 500),
             nn.ReLU(inplace=True),
 
             nn.Linear(500, 500),
@@ -60,14 +60,9 @@ class BCS(nn.Module):
         g = batch.graph
 
         # print(g.batch_size, g.batch_num_nodes, node_features.size(), f.size())
-        
-        if not self.n_nodes:
-            self.n_nodes = node_features.size()[1]
-
         if g.batch_size != node_features.size()[0]:
-            print('adsfasdfsadfasdf')
-            pdb.set_trace()
-            appendix = torch.zeros(g.batch_size-node_features.size()[0], 4, 140, requires_grad=True)
+            
+            appendix = torch.zeros(g.batch_size-node_features.size()[0], 4, 128, requires_grad=True)
             node_features = torch.cat([node_features, appendix])
 
         for l in range(self.num_layers):
@@ -77,9 +72,10 @@ class BCS(nn.Module):
         # node_features = node_features.view(-1)
         
         # pdb.set_trace()
-        result = torch.FloatTensor([]).cuda()
+        result = torch.FloatTensor([])
 
         for i in range(f.size()[0]):
+            aaa = node_features[self.n_nodes*i:self.n_nodes*(i+1), :]
             rr = self.fc1(torch.cat((node_features[self.n_nodes*i:self.n_nodes*(i+1), :].view(-1), f[i, :]), 0))
             
             result = torch.cat([result, rr], dim=0)

@@ -6,7 +6,6 @@ import argparse
 import numpy as np
 import pickle
 
-NODE_COUNT = 4
 
 def load_data(args):
     generic_filename = args.generic
@@ -47,11 +46,11 @@ def load_data(args):
                     bbox[2] /= frame_width
                     bbox[3] /= frame_height
 
-                    appearence = list(map(float, parts[-1].strip('][').split(', ')))
+                    appearance = list(map(float, parts[-1].strip('][').split(', ')))
 
-                    # feature_vector.extend(cam_vector)
-                    # feature_vector.extend(bbox)
-                    feature_vector.extend(appearence)
+                    feature_vector.extend(cam_vector)
+                    feature_vector.extend(bbox)
+                    feature_vector.extend(appearance)
 
                     if pid not in data:
                         data[pid] = []
@@ -75,7 +74,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='DataLoader')
 
     parser.add_argument("--dataset", type=str, default='.')
-    parser.add_argument("--generic", type=str, default='tl10_iou0.75_d0.3_features.txt')
+    parser.add_argument("--generic", type=str, default='tl10_iou0.75_d0.4_features.txt')
     parser.add_argument("--cams", type=int, nargs='+', default=[1, 8])
     parser.add_argument("--output", type=str, default='dataset.pickle')
     args = parser.parse_args()
